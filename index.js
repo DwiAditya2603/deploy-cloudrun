@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   console.log(`${package.name} received a request.`);
-  res.send(`Hallo, ini dari branch Main`);
+  res.send(`Hallo, ini dari branch Main adit`);
 });
 
 const port = process.env.PORT || 8080;
